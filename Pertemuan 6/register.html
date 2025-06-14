@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Form Register Mahasiswa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Form Registrasi</h2>
+    <form>
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" required>
+
+      <label for="middleName">Middle Name</label>
+      <input type="text" id="middleName">
+
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" required>
+
+      <label for="username">Username</label>
+      <input type="text" id="username" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" required>
+
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" required>
+
+      <label for="gender">Gender</label>
+      <select id="gender" required>
+        <option value="">-- Pilih --</option>
+        <option value="Laki-laki">Laki-laki</option>
+        <option value="Perempuan">Perempuan</option>
+      </select>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone">
+
+      <button type="submit" onclick="alert('Website sedang dalam perbaikan')">Register</button>
+    </form>
+  </div>
+</body>
+</html>
